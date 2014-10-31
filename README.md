@@ -204,7 +204,7 @@ cal = moment.recur().every("January").monthsOfYear();
 // You can also combine these rules to match specific dates.
 // For instance, this will match only on Valentines day
 var valentines = moment.recur().every(14).daysOfMonth()
-                               .every("Februray").monthsOfYear();
+                               .every("February").monthsOfYear();
 ```
 
 
